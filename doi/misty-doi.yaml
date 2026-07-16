@@ -1,0 +1,20 @@
+# Misty DOI run configuration — Proclamation of Individual Equity v1.0
+# Authoritative metadata is metadata/misty.json; this records run parameters.
+metadata: metadata/misty.json
+files:
+  - proclamation/proclamation-v1.png
+  - proclamation/proclamation-v1.pdf
+  - proclamation/proclamation-v1.txt
+  - proclamation/proclamation-v1.md
+target: production        # or 'sandbox' for sandbox.zenodo.org
+credentials:
+  # Established method: ZENODO_TOKEN read from the environment (Misty is env-only).
+  # Token held by path at your central ops/.zenodo_token and sourced into the env
+  # — not duplicated into this repo. Override the source path with ZENODO_TOKEN_PATH.
+  token: env:ZENODO_TOKEN
+  token_path_fallback: ops/.zenodo_token
+  orcid: "0009-0002-0684-8320"
+package_dir: doi/doi-package
+options:
+  build_offline_package: true
+  publish: false          # require explicit human action to flip to true

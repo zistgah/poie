@@ -1,0 +1,43 @@
+Proclamation of Individual Equity
+© 1993–2026 Abhishek Choudhary. All rights reserved.
+
+The parchment artifact bears its own canonical copyright line: "© 2026
+Abhishek Choudhary". That line is part of the Version 1.0 artifact and is
+preserved verbatim; it is not modified by this repository.
+
+------------------------------------------------------------------------------
+PER-CATEGORY LICENSING (Zistgah estate standard)
+------------------------------------------------------------------------------
+
+Different components of this repository are licensed by category:
+
+  * CONTENT — the Proclamation itself (parchment, and the verbatim .txt / .md /
+    .pdf renderings under proclamation/, plus docs/ and assets/):
+        Creative Commons Attribution-NoDerivatives 4.0 International (CC-BY-ND-4.0)
+        https://creativecommons.org/licenses/by-nd/4.0/legalcode
+
+  * METADATA — everything under metadata/ and doi/ (misty.json, derived Zenodo/
+    DataCite/codemeta/CFF, provenance, checksums, seed records):
+        Creative Commons Zero 1.0 Universal (CC0-1.0) — public domain dedication
+        https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+  * SOFTWARE — scripts/ and .github/ workflows:
+        GNU General Public License v3.0 or later (GPL-3.0-or-later)
+        https://www.gnu.org/licenses/gpl-3.0.txt
+
+  * PATENTABLE METHODS — proprietary, all rights reserved.
+        (None are asserted in this repository; this clause is stated for
+        estate consistency.)
+
+Attribution for content and metadata: Abhishek Choudhary (AyeAI),
+ORCID 0009-0002-0684-8320.
+
+NOTE ON IMMUTABILITY: verbatim reproduction of the canonical text is expressly
+permitted and encouraged. The repository's own governance additionally holds the
+canonical artifact immutable (Kaivalyik Immutabilis): the original is never
+overwritten and every substantive change is a new version. See GOVERNANCE.md
+and CONTRACT.md.
+
+MAINTAINER NOTE: to ship full legal codes in-tree, place the CC-BY-ND-4.0, CC0-1.0,
+and GPL-3.0 texts under a LICENSES/ directory (SPDX layout). They are referenced
+by canonical URL above rather than transcribed here, to avoid transcription error.

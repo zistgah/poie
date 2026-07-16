@@ -1,0 +1,17 @@
+{
+  "envelope": "Zistgah",
+  "org": "zistgah",
+  "relation": "hosted-within-org",
+  "absorbed": false,
+  "note": "Repository is homed in the Zistgah GitHub organisation for provenance and stewardship, and is seeded within the Zistgah habitat envelope. It remains a sovereign constitutional artifact, not a code subsystem of any Zistgah element.",
+  "artifact": {
+    "id": "proclamation-of-individual-equity",
+    "title": "Proclamation of Individual Equity",
+    "version": "1.0",
+    "kind": "constitutional-artifact",
+    "repository": "https://github.com/zistgah/poie",
+    "canonical_source": "proclamation/proclamation-v1.png",
+    "doi": null,
+    "orcid": "0009-0002-0684-8320"
+  }
+}

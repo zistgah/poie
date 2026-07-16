@@ -1,0 +1,35 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Proclamation of Individual Equity",
+  "description": "The Proclamation of Individual Equity is a constitutional philosophical artifact affirming the primacy of individual cognitive, cultural, and linguistic equity, grounded in the idiolect as the irreducible linguistic fingerprint of the self. This deposit preserves the canonical Version 1.0 artifact: the parchment (proclamation-v1.png), verbatim plain-text (proclamation-v1.txt) and Markdown (proclamation-v1.md) transcriptions, and a two-page PDF pairing the parchment with a searchable text layer, together with provenance and integrity metadata. The wording is preserved verbatim; every substantive revision constitutes a new version and the original artifact is never overwritten (Kaivalyik Immutabilis).",
+  "version": "1.0",
+  "license": "https://spdx.org/licenses/cc-by-nd-4.0",
+  "keywords": [
+    "Individual Equity",
+    "cognitive equity",
+    "linguistic equity",
+    "cultural equity",
+    "idiolect",
+    "Equitable Mind",
+    "Balance of Interpretation",
+    "Kaivalyik Immutabilis",
+    "constitutional artifact",
+    "provenance"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Choudhary",
+      "givenName": "Abhishek",
+      "@id": "https://orcid.org/0009-0002-0684-8320",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "AyeAI"
+      }
+    }
+  ],
+  "dateModified": "2026-07-16",
+  "codeRepository": "https://github.com/zistgah/poie",
+  "identifier": "https://doi.org/10.5281/zenodo.21397274"
+}

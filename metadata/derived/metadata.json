@@ -1,0 +1,33 @@
+{
+  "title": "Proclamation of Individual Equity",
+  "version": "1.0",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-nd-4.0",
+  "description": "The Proclamation of Individual Equity is a constitutional philosophical artifact affirming the primacy of individual cognitive, cultural, and linguistic equity, grounded in the idiolect as the irreducible linguistic fingerprint of the self. This deposit preserves the canonical Version 1.0 artifact: the parchment (proclamation-v1.png), verbatim plain-text (proclamation-v1.txt) and Markdown (proclamation-v1.md) transcriptions, and a two-page PDF pairing the parchment with a searchable text layer, together with provenance and integrity metadata. The wording is preserved verbatim; every substantive revision constitutes a new version and the original artifact is never overwritten (Kaivalyik Immutabilis).",
+  "creators": [
+    {
+      "name": "Choudhary, Abhishek",
+      "affiliation": "AyeAI",
+      "orcid": "0009-0002-0684-8320"
+    }
+  ],
+  "keywords": [
+    "Individual Equity",
+    "cognitive equity",
+    "linguistic equity",
+    "cultural equity",
+    "idiolect",
+    "Equitable Mind",
+    "Balance of Interpretation",
+    "Kaivalyik Immutabilis",
+    "constitutional artifact",
+    "provenance"
+  ],
+  "notes": "Canonical Version 1.0. The authoritative source is the parchment image (proclamation-v1.png). Sealed with OpenTimestamps for decentralised provenance; DOI to be minted on Zenodo release. Semantic fidelity is preserved exactly across all derived renderings.",
+  "repository": "https://github.com/zistgah/poie",
+  "doi": "10.5281/zenodo.21397274",
+  "related_identifiers": []
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://w3id.org/prov-o",
+  "artifact": "Proclamation of Individual Equity",
+  "version": "1.0",
+  "status": "canonical",
+  "doctrine": "Kaivalyik Immutabilis (the original artifact is never overwritten; every substantive change is a new version)",
+  "authoritative_source": "proclamation/proclamation-v1.png",
+  "creator": {
+    "name": "Abhishek Choudhary",
+    "affiliation": "AyeAI",
+    "orcid": "0009-0002-0684-8320",
+    "github": "obonac"
+  },
+  "copyright": "© 1993–2026 Abhishek Choudhary. All rights reserved. (Parchment bears the artifact's own line: © 2026.)",
+  "license": "Per-category (Zistgah estate): content CC-BY-ND-4.0, metadata CC0-1.0, software GPL-3.0-or-later; patentable methods proprietary (none here).",
+  "generated_utc": "2026-07-16T12:53:44Z",
+  "checksums_sha256": {
+    "proclamation-v1.txt": "cea3276adf36927bb4afa4735efbd1117d1a78e1bb40f9404d7544b0fa7c16d6",
+    "proclamation-v1.md": "e44d6024bf2ca7a54aef1e50107613e69fb11479dba1dbcca1792b76b8ec0ae4",
+    "proclamation-v1.png": "a2fce8eeb033fb143f01ed84a4beac5a69248e982693c5b8b58c0557c46f3fbb",
+    "proclamation-v1.pdf": "a33126d91752ed8ad152eb793c14c3f1eae456e2d4067b983fd7dd8a0b45948c"
+  },
+  "preservation": {
+    "doi": {
+      "registry": "Zenodo",
+      "status": "pending",
+      "doi": null
+    },
+    "opentimestamps": {
+      "status": "pending",
+      "targets": [
+        "proclamation-v1.txt",
+        "proclamation-v1.md",
+        "proclamation-v1.png",
+        "proclamation-v1.pdf"
+      ],
+      "proofs": "ots/timestamps/*.ots"
+    },
+    "misty_doi": {
+      "tool": "misty-doi",
+      "record": "metadata/misty.json"
+    }
+  },
+  "ecosystem_seed": {
+    "envelope": "Zistgah",
+    "org": "zistgah",
+    "relation": "hosted-within-org (sovereign artifact, not absorbed)",
+    "registry_stub": "metadata/zistgah-seed.json"
+  },
+  "repository": "https://github.com/zistgah/poie"
+}

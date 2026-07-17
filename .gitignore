@@ -1,0 +1,15 @@
+# Secrets — never commit tokens. The Zenodo token lives in your central
+# location and is sourced into ZENODO_TOKEN; it is not stored in this repo.
+*.token
+.zenodo_token
+ops/.zenodo_token
+
+# Build / run outputs (regenerable via scripts/package.sh)
+doi/doi-package/
+doi/dry-run.json
+doi/result.json
+
+# Python / env
+.venv*/
+__pycache__/
+*.pyc

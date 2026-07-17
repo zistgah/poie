@@ -111,6 +111,15 @@ Proofs live in `ots/timestamps/`. Anyone can independently verify them with the
   metadata, checksums, timestamps, and DOI. History is preserved additively.
 - See [`GOVERNANCE.md`](GOVERNANCE.md) and [`CHANGELOG.md`](CHANGELOG.md).
 
+## Endorse / Signatory campaign
+
+Individuals and institutions can endorse this Proclamation with a decentralised,
+OpenTimestamps-attested signature. See [`CAMPAIGN.md`](CAMPAIGN.md).
+
+- Sign: https://project-ilm.github.io/tok-doi/sign-pie.html
+- Public registry: https://github.com/project-ilm/tok-doi/blob/main/registry/pie/signatures.jsonl
+- Signing infrastructure (Tok DOI): https://doi.org/10.5281/zenodo.21402745
+
 ---
 
 **Author:** Abhishek Choudhary — AyeAI · ORCID [0009-0002-0684-8320](https://orcid.org/0009-0002-0684-8320) · GitHub [@obonac](https://github.com/obonac)

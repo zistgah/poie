@@ -1,0 +1,20 @@
+name: validate-metadata
+on:
+  push: { paths: ["metadata/**", "CITATION.cff", "codemeta.json", "proclamation/**"] }
+  pull_request:
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install misty-doi jsonschema
+      - name: Validate canonical metadata
+        run: misty validate -m metadata/misty.json
+      - name: Verify artifact integrity
+        run: cd proclamation && sha256sum -c ../metadata/SHA256SUMS
+      - name: CITATION.cff sanity
+        uses: citation-file-format/cffconvert-github-action@2.0.0
+        with: { args: "--validate" }

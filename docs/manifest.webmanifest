@@ -1,0 +1,35 @@
+{
+  "name": "Proclamation of Individual Equity",
+  "short_name": "PIE",
+  "description": "Canonical archival home of the Proclamation of Individual Equity — Version 1.0. Kaivalyik Immutabilis.",
+  "id": "/poie/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fbf6e9",
+  "theme_color": "#fbf6e9",
+  "categories": [
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
